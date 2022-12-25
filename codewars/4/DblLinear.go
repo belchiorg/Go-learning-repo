@@ -1,7 +1,3 @@
-package main
-
-import "fmt"
-
 type Node struct {
 	next *Node
 	n50  *Node
@@ -74,13 +70,4 @@ func (L *List) insertNum(n int) {
 	L.count++
 	list.next = l.next
 	l.next = list
-}
-
-func main() {
-
-	fmt.Println("Hello world")
-
-	n := DblLinear(200000)
-
-	println(n)
 }
