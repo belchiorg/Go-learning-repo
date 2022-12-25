@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -46,14 +45,4 @@ func SimpleAssembler(program []string) map[string]int {
 		}
 	}
 	return regs
-}
-
-func main() {
-
-	fmt.Println("Hello world")
-
-	mapa := SimpleAssembler([]string{"mov d 100", "dec d", "mov b d", "jnz b -2", "inc d", "mov a d", "jnz 5 10", "mov c a"})
-	for key, val := range mapa {
-		println(key, val)
-	}
 }
