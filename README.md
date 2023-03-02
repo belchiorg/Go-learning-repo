@@ -1,2 +1,2 @@
 # LearningGo
-Ai papai, macetei 
+
